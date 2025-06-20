@@ -7,6 +7,7 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 const Cruzzi: React.FC = () => {
   return (
     <main>
+      <div className="song-grid">
       <section className="song-section">
         <h3>Deporvidas</h3>
         <p>Yo soy un real desde el útero</p>
@@ -20,6 +21,7 @@ const Cruzzi: React.FC = () => {
         </a>
         <img src={deporvidasImg} alt="96ers portada" />
       </section>
+      </div>
 
     </main>
   );

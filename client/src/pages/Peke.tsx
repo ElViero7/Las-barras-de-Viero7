@@ -7,6 +7,7 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 const Peke: React.FC = () => {
   return (
     <main>
+      <div className="song-grid">
       <section className="song-section">
         <h3>El más pekeño de mi Quinta</h3>
     <p>El portavoz de mi hermano si está ronco,</p>
@@ -21,6 +22,7 @@ const Peke: React.FC = () => {
         </a>
         <img src={elMasPekenoImg} alt="96ers portada" />
       </section>
+      </div>
     </main>
   );
 };

@@ -5,6 +5,10 @@ import cruzImg from "../resources/cruzzi.jpg";
 import pekeImg from "../resources/peke.jpg";
 import abhirImg from "../resources/abhir.jpg";
 import gloositoImg from "../resources/gloostio.jpg";
+import danoImg from "../resources/dano.jpg";
+import nicoMiseriaImg from "../resources/nicoMiseria.jpg";
+import agzImg from "../resources/agz.jpg";
+import delaossaImg from "../resources/delaossa.jpg";
 
 const Home = () => {
   return (
@@ -32,6 +36,26 @@ const Home = () => {
       <Link to="/gloosito" className="artist-card">
         <img src={gloositoImg} alt="Gloosito" />
         <h3>Gloosito</h3>
+      </Link>
+
+      <Link to="/agorazein" className="artist-card">
+        <img src={agzImg} alt="agorazein" />
+        <h3>Agorazein</h3>
+      </Link>
+
+      <Link to="/dano" className="artist-card">
+        <img src={danoImg} alt="dano" />
+        <h3>Dano</h3>
+      </Link>
+
+      <Link to="/delaossa" className="artist-card">
+        <img src={delaossaImg} alt="delaossa" />
+        <h3>Delaossa</h3>
+      </Link>
+
+      <Link to="/nicoMiseria" className="artist-card">
+        <img src={nicoMiseriaImg} alt="nicoMiseria" />
+        <h3>Nico Miseria</h3>
       </Link>
     </main>
   );

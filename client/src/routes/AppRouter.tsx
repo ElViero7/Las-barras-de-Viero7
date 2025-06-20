@@ -6,6 +6,10 @@ import Cruzzi from '../pages/Cruzzi';
 import Peke from '../pages/Peke';
 import Abhir from '../pages/Abhir';
 import Gloosito from '../pages/Gloosito';
+import Agorazein from '../pages/Agorazein';
+import Dano from '../pages/Dano';
+import Delaossa from '../pages/Delaossa';
+import NicoMiseria from '../pages/NicoMiseria';
 
 const AppRouter = () => (
     <Router>
@@ -18,6 +22,10 @@ const AppRouter = () => (
         <Route path="/peke" element={<Peke />} />
         <Route path="/abhir" element={<Abhir />} />
         <Route path="/gloosito" element={<Gloosito />} />
+        <Route path="/agorazein" element={<Agorazein />} />
+        <Route path="/dano" element={<Dano />} />
+        <Route path="/delaossa" element={<Delaossa />} />
+        <Route path="/nicoMiseria" element={<NicoMiseria />} />
       </Routes>
     </Router>
 );

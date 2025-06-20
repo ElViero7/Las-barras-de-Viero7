@@ -8,12 +8,13 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 const Hoke: React.FC = () => {
   return (
     <main>
+      <div className="song-grid">
       <section className="song-section">
         <h3>96ers</h3>
         <p>Niños con los sueños rotos hacen videos y diseños locos</p>
         <p>A ver qué foto me brinda el hood hoy</p>
         <a
-          href="https://open.spotify.com/track/0nossc9MZd0RIbYZMrazge"
+          href="https://open.spotify.com/intl-es/track/0nossc9MZd0RIbYZMrazge?si=dd8fb29d4e7347f4"
           target="_blank"
           rel="noopener noreferrer"
           title="Escuchar canción"
@@ -28,7 +29,7 @@ const Hoke: React.FC = () => {
         <p>BBO, camina en línea recta</p>
         <p>Si eres recto nos cruzamos a la ida y a la vuelta</p>
         <a
-          href="https://open.spotify.com/track/1xB8r3iW4ZWRQD4NWYvLY0"
+          href="https://open.spotify.com/intl-es/track/1xB8r3iW4ZWRQD4NWYvLY0?si=0cd09e6ce28648f9"
           target="_blank"
           rel="noopener noreferrer"
           title="Escuchar canción"
@@ -37,6 +38,7 @@ const Hoke: React.FC = () => {
         </a>
         <img src={nadieVivoImg} alt="Nadie vivo portada" />
       </section>
+      </div>
     </main>
   );
 };

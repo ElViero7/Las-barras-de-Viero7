@@ -1,0 +1,31 @@
+// src/styles/header.scss
+
+.top-bar {
+  background: rgba(20, 20, 20, 0.85);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem 0;
+  text-align: center;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.top-bar-title {
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+
+  a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    // &:hover {
+    //   color: #1db954;
+    // }
+  }
+}

@@ -2,6 +2,8 @@ import * as React from "react";
 import "../styles/artist.scss";
 import ersImg from "../resources/96ers.png";
 import nadieVivoImg from "../resources/nadie vivo.jpg";
+import culpableImg from "../resources/culpable.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
@@ -38,6 +40,19 @@ const Hoke: React.FC = () => {
         </a>
         <img src={nadieVivoImg} alt="Nadie vivo portada" />
       </section>
+      <section className="song-section">
+          <h3>Culpable</h3>
+          <p>Cafeína y Brugal, tensión en la cervical</p>
+          <a
+            href="https://open.spotify.com/intl-es/track/1TrSFCTp6I9yuro1W5JM2n?si=a0c4a8a082bd4c5e"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escuchar canción"
+          >
+            <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
+          </a>
+          <img src={culpableImg} />
+        </section>
       </div>
     </main>
   );

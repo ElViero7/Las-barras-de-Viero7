@@ -9,6 +9,7 @@ import danoImg from "../resources/dano.jpg";
 import nicoMiseriaImg from "../resources/nicoMiseria.jpg";
 import agzImg from "../resources/agz.jpg";
 import delaossaImg from "../resources/delaossa.jpg";
+import ebanoImg from "../resources/ebano.jpg";
 
 const Home = () => {
   return (
@@ -36,6 +37,11 @@ const Home = () => {
       <Link to="/gloosito" className="artist-card">
         <img src={gloositoImg} alt="Gloosito" />
         <h3>Gloosito</h3>
+      </Link>
+
+      <Link to="/ebano" className="artist-card">
+        <img src={ebanoImg} alt="ebano" />
+        <h3>Ébano</h3>
       </Link>
 
       <Link to="/agorazein" className="artist-card">

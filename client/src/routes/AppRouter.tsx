@@ -10,6 +10,7 @@ import Agorazein from '../pages/Agorazein';
 import Dano from '../pages/Dano';
 import Delaossa from '../pages/Delaossa';
 import NicoMiseria from '../pages/NicoMiseria';
+import Ebano from '../pages/Ebano';
 
 const AppRouter = () => (
     <Router>
@@ -26,6 +27,7 @@ const AppRouter = () => (
         <Route path="/dano" element={<Dano />} />
         <Route path="/delaossa" element={<Delaossa />} />
         <Route path="/nicoMiseria" element={<NicoMiseria />} />
+        <Route path="/ebano" element={<Ebano />} />
       </Routes>
     </Router>
 );

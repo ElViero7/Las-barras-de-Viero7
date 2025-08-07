@@ -3,7 +3,8 @@ import "../styles/artist.scss";
 import ersImg from "../resources/96ers.png";
 import nadieVivoImg from "../resources/nadie vivo.jpg";
 import culpableImg from "../resources/culpable.jpg";
-
+import plusmarcaImg from "../resources/plusmarca.jpg";
+import bboImg from "../resources/bbo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
@@ -52,6 +53,33 @@ const Hoke: React.FC = () => {
             <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
           </a>
           <img src={culpableImg} />
+        </section>
+        <section className="song-section">
+          <h3>Plusmarca</h3>
+          <p>No sé la cara de mis ídolos, sólo su nombre</p>
+          <a
+            href="https://open.spotify.com/intl-es/track/1UwM3jgKeu5tsQ0NjZtHAz?si=69f48a56928d40e1"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escuchar canción"
+          >
+            <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
+          </a>
+          <img src={plusmarcaImg} />
+        </section>
+        <section className="song-section">
+          <h3>TT</h3>
+          <p>Todo por mi banda, controlando en corto</p>
+          <p>Con una bola en el pie como Ronaldo el gordo</p>
+          <a
+            href="https://open.spotify.com/intl-es/track/6mQGOlMMCOMww9wMglS9FB?si=ad71a6a3ea644380"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escuchar canción"
+          >
+            <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
+          </a>
+          <img src={bboImg} />
         </section>
       </div>
     </main>

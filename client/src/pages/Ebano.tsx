@@ -67,6 +67,19 @@ const Ebano: React.FC = () => {
         </a>
         <img src={CosasQueBrillanImg} />
       </section>
+      <section className="song-section">
+          <h3>Joven Jugador</h3>
+          <p>Él ya lo perdió todo y nunca le importó</p>
+          <a
+            href="https://open.spotify.com/intl-es/track/1TrSFCTp6I9yuro1W5JM2n?si=a0c4a8a082bd4c5e"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escuchar canción"
+          >
+            <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
+          </a>
+          <img src={l2poeImg} />
+        </section>
       </div>
     </main>
   );

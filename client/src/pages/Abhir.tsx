@@ -19,7 +19,7 @@ const Abhir: React.FC = () => {
         >
           <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
         </a>
-        <img src={caManoloImg} alt="96ers portada" />
+        <img src={caManoloImg}/>
       </section>
       </div>
 

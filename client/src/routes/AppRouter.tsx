@@ -11,6 +11,9 @@ import Dano from '../pages/Dano';
 import Delaossa from '../pages/Delaossa';
 import NicoMiseria from '../pages/NicoMiseria';
 import Ebano from '../pages/Ebano';
+import ElVirtual from '../pages/ElVirtual';
+import Diego900 from '../pages/Diego900';
+import YungBeef from '../pages/YungBeef';
 
 const AppRouter = () => (
     <Router>
@@ -28,6 +31,9 @@ const AppRouter = () => (
         <Route path="/delaossa" element={<Delaossa />} />
         <Route path="/nicoMiseria" element={<NicoMiseria />} />
         <Route path="/ebano" element={<Ebano />} />
+        <Route path="/elVirtual" element={<ElVirtual />} />
+        <Route path="/diego900" element={<Diego900 />} />
+        <Route path="/yungBeef" element={<YungBeef />} />
       </Routes>
     </Router>
 );

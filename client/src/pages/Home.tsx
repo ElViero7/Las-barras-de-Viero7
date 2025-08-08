@@ -10,6 +10,9 @@ import nicoMiseriaImg from "../resources/nicoMiseria.jpg";
 import agzImg from "../resources/agz.jpg";
 import delaossaImg from "../resources/delaossa.jpg";
 import ebanoImg from "../resources/ebano.jpg";
+import yungBeefImg from "../resources/yung beef.jpg";
+import elVirtualImg from "../resources/elVirtual.jpg";
+import diego900Img from "../resources/diego900.jpg";
 
 const Home = () => {
   return (
@@ -62,6 +65,21 @@ const Home = () => {
       <Link to="/nicoMiseria" className="artist-card">
         <img src={nicoMiseriaImg} alt="nicoMiseria" />
         <h3>Nico Miseria</h3>
+      </Link>
+
+      <Link to="/yungBeef" className="artist-card">
+        <img src={yungBeefImg} alt="nicoMiseria" />
+        <h3>Yung Beef</h3>
+      </Link>
+
+      <Link to="/elVirtual" className="artist-card">
+        <img src={elVirtualImg} alt="nicoMiseria" />
+        <h3>El Virtual</h3>
+      </Link>
+
+      <Link to="/diego900" className="artist-card">
+        <img src={diego900Img} alt="nicoMiseria" />
+        <h3>Diego900</h3>
       </Link>
     </main>
   );

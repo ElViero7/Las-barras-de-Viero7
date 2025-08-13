@@ -3,7 +3,7 @@ import "../styles/artist.scss";
 import CosasQueBrillanImg from "../resources/cosas que brillan.jpg";
 import oraleImg from "../resources/orale.png";
 import l2poeImg from "../resources/l2poe.jpg";
-
+import aleluyaImg from "../resources/aleluya.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
@@ -79,6 +79,20 @@ const Ebano: React.FC = () => {
             <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
           </a>
           <img src={l2poeImg} />
+        </section>
+
+        <section className="song-section">
+          <h3>Aleluya</h3>
+          <p>Amor tras un cristal blindado</p>
+          <a
+            href="https://open.spotify.com/intl-es/track/6SniUilPdVhYFEQpkyhghk?si=8888e5f4d1924f10"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escuchar canción"
+          >
+            <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
+          </a>
+          <img src={aleluyaImg} />
         </section>
       </div>
     </main>

@@ -4,6 +4,7 @@ import CosasQueBrillanImg from "../resources/cosas que brillan.jpg";
 import oraleImg from "../resources/orale.png";
 import l2poeImg from "../resources/l2poe.jpg";
 import aleluyaImg from "../resources/aleluya.jpg";
+import organicNameImg from "../resources/organic name.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
@@ -93,6 +94,20 @@ const Ebano: React.FC = () => {
             <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
           </a>
           <img src={aleluyaImg} />
+        </section>
+
+        <section className="song-section">
+          <h3>Impala</h3>
+          <p>Porque yo soy el único hijo puta al que admiro</p>
+          <a
+            href="https://soundcloud.com/nitroglicerine/impala?si=cb3943d38f3a4a4f803751c196a8f563&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Escuchar canción"
+          >
+            <FontAwesomeIcon icon={faMusic} size="lg" color="#1db954" />
+          </a>
+          <img src={organicNameImg} />
         </section>
       </div>
     </main>

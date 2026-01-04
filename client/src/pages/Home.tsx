@@ -13,6 +13,7 @@ import ebanoImg from "../resources/ebano.jpg";
 import yungBeefImg from "../resources/yung beef.jpg";
 import elVirtualImg from "../resources/elVirtual.jpg";
 import diego900Img from "../resources/diego900.jpg";
+import lndcImg from "../resources/lndc.jpg";
 
 const Home = () => {
   return (
@@ -80,6 +81,11 @@ const Home = () => {
       <Link to="/diego900" className="artist-card">
         <img src={diego900Img} alt="nicoMiseria" />
         <h3>Diego900</h3>
+      </Link>
+
+      <Link to="/lndc" className="artist-card">
+        <img src={lndcImg} alt="nicoMiseria" />
+        <h3>Los Niños Del Caminito</h3>
       </Link>
     </main>
   );

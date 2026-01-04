@@ -14,6 +14,7 @@ import Ebano from '../pages/Ebano';
 import ElVirtual from '../pages/ElVirtual';
 import Diego900 from '../pages/Diego900';
 import YungBeef from '../pages/YungBeef';
+import LNDC from '../pages/LosNinosDelCaminito';
 
 const AppRouter = () => (
     <Router>
@@ -34,6 +35,7 @@ const AppRouter = () => (
         <Route path="/elVirtual" element={<ElVirtual />} />
         <Route path="/diego900" element={<Diego900 />} />
         <Route path="/yungBeef" element={<YungBeef />} />
+        <Route path="/lndc" element={<LNDC />} />
       </Routes>
     </Router>
 );
